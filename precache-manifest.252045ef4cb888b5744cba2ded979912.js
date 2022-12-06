@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55bc30f1058ea6f53e892b1d1adfbc9c",
+    "revision": "497a8766d77bde895a0e4672d317eb83",
     "url": "/traveladvisory_react/index.html"
   },
   {
-    "revision": "c231ae8cd7302c8d72db",
+    "revision": "003b010bb90a9e7d3ea9",
     "url": "/traveladvisory_react/static/css/main.d8c47d2b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/traveladvisory_react/static/js/2.bd10bc11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c231ae8cd7302c8d72db",
-    "url": "/traveladvisory_react/static/js/main.5a42e4bc.chunk.js"
+    "revision": "003b010bb90a9e7d3ea9",
+    "url": "/traveladvisory_react/static/js/main.22fdc3f4.chunk.js"
   },
   {
     "revision": "3e09049864a0016a54f8",

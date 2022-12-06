@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/traveladvisory_react/static/css/main.d8c47d2b.chunk.css",
-    "main.js": "/traveladvisory_react/static/js/main.5a42e4bc.chunk.js",
-    "main.js.map": "/traveladvisory_react/static/js/main.5a42e4bc.chunk.js.map",
+    "main.js": "/traveladvisory_react/static/js/main.22fdc3f4.chunk.js",
+    "main.js.map": "/traveladvisory_react/static/js/main.22fdc3f4.chunk.js.map",
     "runtime-main.js": "/traveladvisory_react/static/js/runtime-main.0244d17f.js",
     "runtime-main.js.map": "/traveladvisory_react/static/js/runtime-main.0244d17f.js.map",
     "static/js/2.bd10bc11.chunk.js": "/traveladvisory_react/static/js/2.bd10bc11.chunk.js",
     "static/js/2.bd10bc11.chunk.js.map": "/traveladvisory_react/static/js/2.bd10bc11.chunk.js.map",
     "index.html": "/traveladvisory_react/index.html",
-    "precache-manifest.72136e9563ec7d32454fce28cc0738a7.js": "/traveladvisory_react/precache-manifest.72136e9563ec7d32454fce28cc0738a7.js",
+    "precache-manifest.252045ef4cb888b5744cba2ded979912.js": "/traveladvisory_react/precache-manifest.252045ef4cb888b5744cba2ded979912.js",
     "service-worker.js": "/traveladvisory_react/service-worker.js",
     "static/css/main.d8c47d2b.chunk.css.map": "/traveladvisory_react/static/css/main.d8c47d2b.chunk.css.map",
     "static/js/2.bd10bc11.chunk.js.LICENSE.txt": "/traveladvisory_react/static/js/2.bd10bc11.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0244d17f.js",
     "static/js/2.bd10bc11.chunk.js",
     "static/css/main.d8c47d2b.chunk.css",
-    "static/js/main.5a42e4bc.chunk.js"
+    "static/js/main.22fdc3f4.chunk.js"
   ]
 }
