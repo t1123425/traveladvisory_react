@@ -26,17 +26,13 @@ class Map extends React.PureComponent{
             gray:'#d6d8db'
         }
         if(tdata.length > 0){
-            //console.log('geoProperties',geoProperties.name)
             let selectedCountry = tdata[0].filter((items) =>{
-                // console.log('test',items.country.split(' ')[1].indexOf(geoProperties.name));
-                return items.country.split(' ')[1].indexOf(geoProperties.name) > -1;
+                return items.country && items.country.split(' ')[1].indexOf(geoProperties.name) > -1;
             })
-            // console.log('selectedCountry',selectedCountry)
             if(selectedCountry.length > 0){
                 let situation = this.props.sType.filter((items) => {
                     return items.name === selectedCountry[0].situation
                 })
-                // console.log('situation',situation)
                 returnValue = colorMap[situation[0].type];
             }
         }
@@ -48,8 +44,7 @@ class Map extends React.PureComponent{
         let levelInfo = '暫無資訊 (No Data)'
         if(tdata.length > 0){
             let selectedCountry = tdata[0].filter((items) =>{
-                // console.log('test',items.country.split(' ')[1]);
-                return items.country.indexOf(geoProperties.name) > -1;
+                return items.country && items.country.indexOf(geoProperties.name) > -1;
             })
             if(selectedCountry.length > 0){
                 let situation = this.props.sType.filter((items) => {

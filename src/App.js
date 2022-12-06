@@ -57,8 +57,9 @@ class App extends React.PureComponent{
     this.loadData();
   }
   loadData(){
-    axios.get(process.env.REACT_APP_OLD_API_URL).then(res => {
+    axios.get(process.env.REACT_APP_API_URL).then(res => {
       if(res){
+        //console.log('res',res);
         this.props.load_data(res.data);
       }
     }).catch(err => {

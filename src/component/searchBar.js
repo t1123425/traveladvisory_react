@@ -17,15 +17,6 @@ class SearchBar extends PureComponent {
             this.props.renderSearch(this.state.val);
         });
     }
-    handleSubmit(){
-        if(this.state.val !== ''){
-            //this.props.search(this.state.val);
-            //this.setState({val:''});
-            console.log('props',this.props.search);
-        }else{
-            alert('搜索資料為空');
-        }
-    }
     getLevelValue = e => {
         this.props.renderLevel(e.target.value);
     }

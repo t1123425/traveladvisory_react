@@ -52,11 +52,7 @@ class ListTable extends PureComponent {
         return returnType;
     }
     filterSearch = () => {
-        if(this.state.searchValue.length !== 0){
-            this.setState({searchStatus:true});
-        }else{
-            this.setState({searchStatus:false});
-        }
+        this.setState({searchStatus:this.state.searchValue.length > 0});
     }
     renderSearch = childData => {
         this.setState({searchValue:childData});
@@ -83,15 +79,6 @@ class ListTable extends PureComponent {
         let listLi = this.props.tDataList;
         return(
             <div className="listBlockWrap">
-                {/* <ul className="areaList">
-                  {
-                      this.state.areaList.map((items,index) => (
-                        <li key={index} onClick={() => {this.selectListIndex(index)}} className={index === this.state.showIndex?'active':''}>
-                            <span>{items}</span>
-                        </li>
-                      ))
-                  }
-                </ul> */}
                 <SearchBar areaList={this.state.areaList} warningList={this.props.sType} renderLevel={this.renderLevel} renderArea={this.renderArea} renderSearch={this.renderSearch}  />
                 <div id="listTableBlock" className="table-responsive mt-5">
                   <table className="table table-bordered table-hover">
